@@ -12,3 +12,5 @@ Html files ben ik altijd begonnen van de template en nadien aangepast.
 ## Sitemap
 
 ![sitemap](https://user-images.githubusercontent.com/22002488/32573670-050ba536-c4cf-11e7-97cc-15930d178e44.png)
+
+--> https://www.draw.io/#W0156WXJCKDI7L5RVZZWJA26MARVGOAZP7U
