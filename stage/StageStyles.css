@@ -76,6 +76,19 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
+header .photo-huisstijl{
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+	
+}
+header .photo-frans{
+ margin-top: 50px;
+  width: 150px;
+  float:auto;
+  height: 150px;
+	
+}
 .tag {
   background-color: #efefef;
   color: black;
@@ -114,6 +127,9 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #1F90FF;
+}
+.text:hover {
+  border-color: #FF4D4D;
 }
 
 ul.skills {
