@@ -28,23 +28,129 @@
 	<main class="flex">
       <div class="text">
 
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere ac lectus eget malesuada. 
-	  Suspendisse vitae erat sed ex mattis fringilla laoreet ac quam. Vivamus ut quam blandit, fermentum 
-	  felis vitae, finibus urna. Praesent odio sem, vehicula sed commodo non, pharetra et lacus. Integer
-	  a purus quis nibh tristique sollicitudin vitae id quam. Aenean eget lacus efficitur, tristique ex quis,
-	  viverra tellus. Aliquam non lacinia massa, quis ullamcorper metus. Maecenas pretium turpis a arcu 
-	  pretium varius tincidunt id arcu. Aenean accumsan, metus sit amet sagittis laoreet, sem leo faucibus
-	  mi, nec semper ipsum purus eget quam. Curabitur pellentesque fringilla accumsan. Pellentesque laoreet
-	  sollicitudin hendrerit. In nec cursus ligula. Pellentesque sit amet pellentesque orci.
+	  <p>
+	  De communicatie tussen het bedrijf in Westerlo en dat in Merelbeke gebeurt nu via skype en slack. 
+	  Dit zorgt vaak voor bottlenecks. Soms blijft het beeld vastzitten of wordt het geluid verstoord door 
+	  een echo. Ik ga met deze casestudy nagaan waar het misloopt, of het probleem bij Skype zelf ligt of
+	  het ligt aan het netwerk dat misschien te zwak is. De download snelheid van het wifinetwerk is 
+	  tamelijk snel, 50 Mbps. Maar de upload snelheid bedraagt 8 Mbps, wat wel weinig is als iedereen 
+	  gebruik maakt van de wifi en er geen gebruik wordt gemaakt van bekabeling. Ook ben ik nagegaan of er 
+	  sprake was van package loss, maar dat was niet het geval.
 	  </p>
 	  <p>
-	  Fusce dignissim urna et tortor tincidunt venenatis. Duis in sapien nec purus pulvinar dictum sit amet
-	  sed magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-	  Curabitur venenatis nunc a lacinia consectetur. Quisque vel arcu sed leo mollis molestie ac eget metus.
-	  Praesent eget diam sollicitudin, cursus dolor ut, facilisis arcu. Praesent sagittis fringilla congue. 
-	  Nunc tellus leo, vehicula lobortis tincidunt rutrum, pharetra non arcu.
+	  
+		Vandaag, woensdag 4 oktober ga ik deelnemen aan een skype gesprek met enkele collega’s in Merelbeke,
+		om tijdens het gesprek te kunnen zien of skype zelf aangeeft dat de netwerkverbinding zwak is. 
+	  </p>
+	  <p>
+	  Skype geeft ook zelf enkele mogelijke oorzaken aan voor een slecht skype-gesprek;
 	  </p>
 	  
+	  <h3>1. Gebruik van de nieuwste versie van Skype</h3>
+	  <p>
+	  Uiteraard is elke nieuwe versie een verbetering op de oude. Vaak worden er dan ook veel gemelde 
+	  problemen opgelost en streven ze naar zo een best mogelijke versie van Skype.
+	  De nieuwste versie van Skype blijkt 16.0.4561.1000. te zijn. Deze hebben ze zowel hier in Westerlo als
+	  in Merelbeke. Dus hier kan het probleem niet liggen.
+	  </p>
+	  
+	  <h3>2. De internetverbinding zelf</h3>
+	  <p>
+	  Buiten het feit dat je best de nieuwste versie van Skype gebruikt, kunnen er nog altijd bottlenecks
+	  voorkomen. Een mogelijk probleem is namelijk dat de internetverbinding gewoon weg niet optimaal werkt. Waardoor het Skypegesprek moeilijker verloopt.
+	  De verbinding was volgens Skype goed, zowel bij het bedrijf in Westerlo als het bedrijf in Merelbeke.
+	  </p>
+	  
+	  <h3>3. Verstoring door andere toepassingen</h3>
+	  <p>
+	  Andere toepassingen die aan het draaien zijn terwijl je een Skype gesprek hebt kunnen dat ook vaak 
+	  verstoren. Niet elke toepassing natuurlijk, dan spreken we vooral over toepassingen die gebruik maken 
+	  van streaming van audio of video, toepassingen om bestanden te delen of gewoon weg een geopende 
+	  webbrowser kan bandbreedte gebruiken.
+	  Door de onnodige toepassingen te sluiten was de kwaliteit van het beeld en het geluid beter. 
+	  </p>
+	  <p></p>
+	  
+	  <h2>Conclusie</h2>
+	  <p>
+	  Het probleem ligt niet bij AllPhi’s netwerk. De versie van Skype is bij de nieuwste, de
+	  netwerkverbinding was in orde, Skype gaf dit ook zelf aan. Wanneer men onnodige toepassingen 
+	  sloot was de kwaliteit van beeld en geluid ook goed. Wat ik hier alleen maar uit kan besluiten is 
+	  dat Skype zelf soms wat storing en bottlenecks vertoond. Dit had ik wel verwacht aangezien ik dezelfde
+	  problemen ook vaak bij mij thuis voor heb als ik iemand anders probeer te skypen. 
+	  </p>
+	  
+	  <h3>Mogelijk alternatief</h3>
+	  <p>
+	  Als mogelijk alternatief zou ik Cisco Spark aanraden. Deze heeft dezelfde principe als Skype; 
+	  kunnen chatten en videochatten met meerdere mensen tegelijkertijd. Cisco Spark heeft wel meerdere 
+	  handige toepassingen die je niet terugvindt bij Skype. Ook is Cisco Spark met end-to-end-encryptie
+	  beveiligd. Dat wil zeggen dat alle informatie wordt versleuteld alvorens het uw pc verlaat. De Cisco 
+	  Spark control hub is opgenomen in alle betalende versies van Cisco Spark hiermee kunt u uw ‘spaces’
+	  (chatgroepen) beheren. Er bestaat ook een app van Cisco Spark, dat is gemakkelijk voor wanneer u 
+	  onderweg bent, thuis ben of even geen laptop of pc bij de hand hebt. Als u dan te laat bent voor de 
+	  meeting kunt u al deelnemen via uw gsm.
+	  </p>
+	  <h3>Bots via Cisco Spark</h3>
+	  <p></p>
+	  <h4>Github bot</h4>
+	  <p>
+	  het voordeel aan Cisco Spark is dat je er bots kan aan toevoegen van b.v. het bekende platform Github.
+	  De bot van Github kan een aantal zaken doen; commenten op een issue, een issue aanmaken, een pull 
+	  request aanmaken. Hij kan ook verwittigen wanneer een commit is geüpdatet, als er een issue is 
+	  angemaakt en als er een pull request notificatie is . Hieronder zie je een screenshot van een commando
+	  dat ik heb uitgevoerd, namelijk het aanmaken van een issue.
+	  </p>
+	  <img src="../images/GithubCaseS.jpg" alt="Picture of case study"class ="photo-Casestudy">
+	  <img src="../images/GithubCaseS1.jpg" alt="Picture of case study" class ="photo-Casestudy">
+	  
+	  <h4>Translate-to bot</h4>
+	  <p>
+	  Ook ‘TranslateTo’ bots die uw chatbericht vertalen naar de gewenste taal zijn handig binnen een 
+	  bedrijf, bijvoorbeeld als je met een buitenlandse klant moet chatten. Binnen een groepschat kun je
+	  deze bot zoals elke andere bot aanroepen met ‘@’ en hun naam.
+	  </p>
+	  <img src="../images/TranslateCaseS.jpg" alt="Picture of case study"class ="photo-CasestudySmall">
+	  <img src="../images/TranslateCaseS1.jpg" alt="Picture of case study" class ="photo-CasestudySmall">
+	  <p>andere bots te gebruiken binnen Cisco Spark; https://depot.ciscospark.com/bots</p>
+	  <p></p>
+	  <h4>Screenshotten via Cisco Spark</h4>
+	  <p>
+	  Wat ook makkelijker is bij Cisco Spark dan bij Skype is het doorsturen van screenshots. Vaak ben je 
+	  met iets bezig op je pc of laptop en wil je dat even screenshotten om door te kunnen sturen naar bv. 
+	  een groep mensen of eerder privé. Dit kan met Cisco Spark zeer gemakkelijk door één druk op de knop,
+	  je selecteert dan het veld dat je wil screenshotten en nadien laat je uw muis of de touchpad los. 
+	  Cisco Spark zet deze dan in de chatbalk onderaan waardoor je enkel nog op enter moet drukken.
+	  </p>
+	  <h5>1. Het knopje schermafbeelding indrukken (rechthoek met plusje rechts vanonder)</h5>
+	  <img src="../images/ScreenshotCaseS.jpg" alt="Picture of casestudy" class ="photo-CasestudyLong">
+	  <h5>2. selecteren wat je wilt screenshotten</h5>
+	  <img src="../images/ScreenshotCaseS1.jpg" alt="Picture of casestudy" class ="photo-CasestudySmall">
+	  <h5>3. muis of touchpad loslaten, u krijgt automatisch dit te zien</h5>
+	  <img src="../images/ScreenshotCaseS2.jpg" alt="Picture of casestudy" class ="photo-CasestudyLong">
+	  <h5>4. op enter drukken, u krijgt het volgende te zien; </h5>
+	  <img src="../images/ScreenshotCaseS3.jpg" alt="Picture of casestudy" class ="photo-CasestudySmall">
+	  
+	  <h4>Handige tools binnen Cisco Spark</h4>
+	  <p>
+	  Buiten de bots zijn er ook nog veel andere bots die je kan gebruiken bij Cisco Spark zoals vele 
+	  developer tools en google drive. Je hebt ook de mogelijkheid om een geïntegreerde whiteboard te 
+	  gebruiken die je tijdens een videochat met andere kunt delen. Je kunt met meerdere tegelijkertijd 
+	  schrijven op het whiteboard, wat handig kan zijn om te brainstormen zonder in dezelfde kamer te
+	  moeten zijn. Een andere leuke optie is het invoegen van bestanden. Hier vind je alle bestanden die 
+	  ooit zijn verstuurd binnen de chat terug. Zo hoef je niet terug naar boven te scrollen in de chat om
+	  bv. een screenshot terug te vinden die je nodig hebt voor iets
+	  </p>
+	  <img src="../images/ToolsCaseS.jpg" alt="Picture of casestudy" class ="photo-Casestudy">
+	  
+	  <h4>Toepassingen die je kunt linken met Cisco Spark</h4>
+	  <p>
+	  Onedrive en Onenote zijn ook zeer vaak gebruikte tools om bestanden in op te slaan, bewerken
+	  (in het geval van onedrive) en te delen. Ook wij op school gebruiken dit. Cisco Spark geeft u de
+	  mogelijkheid om uw Onenote, Onedrive en Onedrive voor bedrijven te linken met uw Cisco spark chat 
+	  space. Dropbox kan ook gelinkt worden met Cisco Spark. Veel andere behulpzame en interessante tools
+	  kunnen gelinkt worden met Cisco Spark; https://depot.ciscospark.com/integrations
+	  </p>
 		</div>	
 	</main>
 	</header>
